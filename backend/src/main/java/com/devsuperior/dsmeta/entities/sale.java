@@ -16,7 +16,7 @@ public class sale {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	
 	private Long Id;
-	private String sellerName;
+	private String SellerName;
 	private Integer visited;
 	private Integer deals;
 	private Double amount;
@@ -38,11 +38,11 @@ public class sale {
 	}
 
 	public String getSellerName() {
-		return sellerName;
+		return SellerName;
 	}
 
 	public void setSellerName(String sellerName) {
-		this.sellerName = sellerName;
+		this.SellerName = sellerName;
 	}
 
 	public Integer getVisited() {
